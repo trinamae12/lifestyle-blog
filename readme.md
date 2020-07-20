@@ -1,4 +1,4 @@
-# L I G Frontend Examm
+# L I G Frontend Exam
 
 ## Specifications
 - Site flow is located at https://xd.adobe.com/view/c6ea2e66-3363-4f18-45b2-38c3851631a3-b0db/?fullscreen

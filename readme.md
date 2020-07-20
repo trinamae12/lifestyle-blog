@@ -9,7 +9,7 @@ Frontend exam for LIG applicants.
 - Don't use any CSS frameworks
 - Slider should not use a plugin
 - Bonus points for animations
-- Integrate functionalities using the API provided (For Senior Frontend only)
+- Integrate functionalities using the API provided (For Senior Frontend Applicants only)
 
 ## Scoring
 - Implemented functionalities
@@ -17,4 +17,4 @@ Frontend exam for LIG applicants.
 - HTML, CSS and Javascript skills
 - Pixel Perfect Skills
 - Animations (Bonus)
-- Knowledge of API integration (For Senior Frontend only)
+- Knowledge of API integration (For Senior Frontend Applicants only)

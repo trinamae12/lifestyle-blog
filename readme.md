@@ -9,7 +9,17 @@ Frontend exam for LIG applicants.
 - Don't use any CSS frameworks
 - Slider should not use a plugin
 - Bonus points for animations
-- Integrate functionalities using the API provided (For Senior Frontend Applicants only)
+
+## Position Requirements:
+
+### Junior Level:
+- Create all pages except files with `(Admin)`.
+
+### Middle Level:
+- Create all pages except API integration.
+
+### Senior Level:
+- Create all page and API integration
 
 ## Scoring
 - Implemented functionalities

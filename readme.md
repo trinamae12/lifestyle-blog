@@ -16,7 +16,7 @@ Frontend exam for LIG applicants.
 - Create all pages except files with `(Admin)`.
 
 ### Middle Level:
-- Create all pages except API integration. Login and register are handle in memory.
+- Create all pages except API integration. Login, register and article/post objects are handled in memory to demonstrate dynamic data.
 
 ### Senior Level:
 - Create all page and API integration

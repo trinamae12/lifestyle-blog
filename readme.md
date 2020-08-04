@@ -13,7 +13,7 @@ Frontend exam for LIG applicants.
 ## Position Requirements:
 
 ### Junior Level:
-- Create all pages except files with `(Admin)`.
+- Create all pages except files with `(Admin)`. Article/post objects are handled in memory to demonstrate dynamic data.
 
 ### Middle Level:
 - Create all pages except API integration. Login, register and article/post objects are handled in memory to demonstrate dynamic data.

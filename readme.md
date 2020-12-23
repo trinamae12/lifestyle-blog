@@ -7,7 +7,7 @@ Frontend exam for LIG applicants.
 - Create a Blog site following XD design (no changes to design file is needed)
 - Site should be made as a Single Page Application (AngularJS, Angular, React, Vue, Svelte, Ember.js, ExtJS etc)
 - Don't use any CSS frameworks
-- Slider should not use a plugin
+- Slider should not use library, plugin or framework builtin component
 - Bonus points for animations
 
 ## Position Requirements:

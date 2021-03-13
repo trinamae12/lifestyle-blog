@@ -1,0 +1,22 @@
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.sign-up-label {
+  text-align: center;
+}
+
+.login-box {
+    margin: auto;
+    width: 50%;
+    background-color: #E0E0E0;
+}
+
+h2 {
+  text-align: center;
+}

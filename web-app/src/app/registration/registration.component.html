@@ -1,0 +1,22 @@
+<div class="login-box">
+    <form action="#">      
+        <div class="container">
+            <h2>REGISTER</h2>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email">
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw">
+
+            <label for="conf-psw"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Password" name="conf-psw">
+        
+            <button type="submit">Register</button>
+            <div class="sign-up-label">
+                Already have an account? <a [routerLink]="['/']">Login here</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<app-newsfeed></app-newsfeed>

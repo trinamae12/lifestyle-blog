@@ -1,0 +1,42 @@
+<div class="container">
+    <h1>Latest Posts</h1>
+
+    <ul class="card-container">
+        <div *ngFor="let post of posts">
+            <li>
+                <a [routerLink]="['/post', post.id]">
+                    <div class="card">
+                        <img src="{{ post.img}}" alt="Avatar" style="width:100%">
+                        <div class="card-text">
+                            <h4><b>{{ post.title }}</b></h4>
+                            <p>{{ post.date }}</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </div>
+    </ul>
+    <div id="show-more-less">
+        <ul class="card-container">
+            <div *ngFor="let post of anotherposts">
+                <li>
+                    <a [routerLink]="['/post', post.id]">
+                        <div class="card">
+                            <img src="{{ post.img }}" alt="Avatar" style="width:100%">
+                            <div class="card-text">
+                                <h4><b>{{ post.title }}</b></h4>
+                                <p>{{ post.date }}</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </div>
+        </ul>
+    </div>
+
+    <div *ngIf="(totalPosts > postsViewed)">
+        <div class="show-more">
+            <button id="showBtn" (click)="showMore()">Show More</button>
+        </div>
+    </div>
+</div>

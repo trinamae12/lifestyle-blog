@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "comment": "I also love my blacks!",
+        "date": "03/12/2020",
+        "user": "love_cupcakes07",
+        "img": "/assets/images/comment_1.jpg"
+    },
+    {
+        "id": 2,
+        "comment": "Your closet's great",
+        "date": "03/12/2020",
+        "user": "cakeyIzMe",
+        "img": "/assets/images/comment_2.jpg"
+    },
+    {
+        "id": 3,
+        "comment": "Wow! Monochromatic!",
+        "date": "03/12/2020",
+        "user": "masterSweets11",
+        "img": "/assets/images/comment_3.jpg"
+    }
+]

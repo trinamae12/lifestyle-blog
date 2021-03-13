@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="/assets/images/whites-to-blacks.jpg" style="width:100%">
+      <div class="text">Why I love my whites to blacks?</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="/assets/images/sunkissed.jpg" style="width:100%">
+      <div class="text">Hello beach!</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="/assets/images/ordinary-day.jpg" style="width:100%">
+      <div class="text">Just another ordinary day</div>
+    </div>
+  
+    <a role="button" class="prev" (click)="plusSlides(-1)">&#10094;</a>
+    <a role="button" class="next" (click)="plusSlides(1)">&#10095;</a>
+
+    <div class="dot-group">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+</div> 
+    
+<app-newsfeed></app-newsfeed>

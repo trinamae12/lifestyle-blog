@@ -1,0 +1,16 @@
+<div class="container">
+    <ul class="breadcrumb">
+        <li><a [routerLink]="['/home']">Home</a></li>
+        <li><a [routerLink]="['/post', post.id]">{{ post.title }}</a></li>
+    </ul>
+
+    <div class="post-img">
+        <img src="{{ post.img }}">
+    </div>
+    <div class="post-contents">
+        <div class="post-title">{{ post.title }}</div>
+        <p>{{ post.content }}</p>
+    </div>
+    
+    <app-view-comments></app-view-comments>  
+</div>

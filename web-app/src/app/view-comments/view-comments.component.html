@@ -1,0 +1,12 @@
+<section>
+    <div *ngFor="let comment of comments">
+        <div class='friend'>
+            <img src="{{ comment.img }}">
+            
+            <div class="comment-text">
+            <p>{{ comment.comment }}</p>
+            <span>{{ comment.date }}</span>
+        </div>
+        </div>
+    </div>
+</section>

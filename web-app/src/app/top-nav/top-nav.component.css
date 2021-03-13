@@ -1,0 +1,53 @@
+.topnav {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.topnav a {
+  display: block;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav h1 { 
+  font-family: 'Gilroy';
+  font-size: 5rem;
+  text-align: center;
+}
+
+.bottom-nav {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #909090;
+  border-left: none;
+}
+
+.bottom-nav button {
+  display: block;
+  background-color: transparent;
+  width: 10%;
+  float: right;
+  color: black;
+  padding: 0;
+}
+
+#closeLoginBtn {
+  display: block;
+}
+
+#openLoginBtn {
+  display: none;
+}
+
+#logout {
+  display: none;
+}

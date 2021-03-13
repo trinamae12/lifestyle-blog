@@ -1,0 +1,19 @@
+<div id="login-box" class="login-box">
+    <form (submit)="onSubmit()">
+        <div class="container">
+            <h2>LOGIN</h2>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username">
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password">
+        
+            <button type="submit">Login</button>
+            <div class="sign-up-label">
+                No account yet? <a [routerLink]="['/register']">Register here</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<app-newsfeed></app-newsfeed>

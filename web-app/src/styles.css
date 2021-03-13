@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Gilroy";
+    src: url('assets/fonts/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf') format('opentype');
+}
+
+body {
+    font-family: 'Gilroy';
+    background-color: #fff;
+}
+
+.container {
+    max-width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+button {
+    font-family: 'Gilroy';
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+    
+button:hover {
+    opacity: 0.8;
+}
+
